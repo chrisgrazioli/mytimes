@@ -1,0 +1,46 @@
+header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+.logo{
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myt-logo.jpg);
+  background-repeat: no-repeat;
+  flex-direction:column;
+  color: MediumAquamarine;
+  align-items: flex-start;
+  height:50px;
+}
+.logo span{
+  flex-direction: column;
+  padding-left:70px;
+  display:flex;
+  align-items: flex-start;
+}
+nav{
+  display: flex;
+}
+nav span{
+  display:inline-flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.container{
+  display:flex;
+}
+.column.large {
+  width: 630px;
+  display: flex;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+}
