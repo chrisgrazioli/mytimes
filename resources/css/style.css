@@ -71,29 +71,31 @@ p{
   font-size: 30px;
   color: white;
 }
-.story.1{
+.story.first{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   background-repeat: no-repeat;
   border: 1px solid red;
 }
-.story.2{
+.story.second{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
   background-repeat: no-repeat;
   border: 1px solid red;
 }
-.story.3{
+.story.third{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   background-repeat: no-repeat;
   border: 1px solid red;
 }
-.story.4{
+.story.forth{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  background-repeat: no-repeat;
   border: 1px solid red;
 }
-.story.5{
+.story.fifth{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
+  background-repeat: no-repeat;
   border: 1px solid red;
 }
