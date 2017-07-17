@@ -97,5 +97,20 @@ p{
 .story.fifth{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
   background-repeat: no-repeat;
+  height:300px;
   border: 1px solid red;
+}
+footer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  height:300px;
+}
+footer p{
+  color:white;
+}
+footer span a{
+  color:black;
 }
