@@ -3,15 +3,16 @@ header{
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  justify-content: space-between;
+  border-bottom:1px solid black;
 }
 .logo{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myt-logo.jpg);
   background-repeat: no-repeat;
-  flex-direction:column;
   color: MediumAquamarine;
   align-items: flex-start;
-  height:50px;
+  height:70px;
 }
 .logo span{
     flex-direction: column;
@@ -22,12 +23,14 @@ header{
 }
 nav{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
 }
 nav span{
-  display:flex;
-  flex-grow: 1
+  padding: 0 20px;
+}
+nav span a{
+  color:black;
 }
 p{
   font-family: Georgia;
@@ -38,23 +41,28 @@ p{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .column.large {
   flex-basis: 630px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  border: 1px solid blue;
 }
 
 .column.medium {
-  width: 300px;
+  flex-basis: 300px;
   display: flex;
   flex-direction: column;
+  border: 1px solid blue;
 }
 
 .column.small {
-  width: 240px;
+  flex-basis: 240px;
   display: flex;
   flex-direction: column;
+  border: 1px solid blue;
 }
 .story{
   display: flex;
@@ -67,20 +75,25 @@ p{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   background-repeat: no-repeat;
+  border: 1px solid red;
 }
 .story.2{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
   background-repeat: no-repeat;
+  border: 1px solid red;
 }
 .story.3{
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   background-repeat: no-repeat;
+  border: 1px solid red;
 }
 .story.4{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  border: 1px solid red;
 }
 .story.5{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
+  border: 1px solid red;
 }
